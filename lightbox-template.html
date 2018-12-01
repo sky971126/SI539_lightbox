@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.css">
+	
+	<title>Lightbox</title>
+</head>
+<body>
+	<div class = "gallery">
+			<div class="grid">
+
+					<div class="item">
+					  <div class="item-content">
+							<a href="images/DarkSkyMilyWay.jpg" data-lightbox="stars" data-title="data title"><img src="images/DarkSkyMilyWay.jpg" alt="DarkSkyMilyWay"></a>
+					  </div>
+					</div>
+				  
+					<div class="item">
+					  <div class="item-content">
+							<a href="images/MilkyWay.jpg" data-lightbox="stars" data-title="data title"><img src="images/MilkyWay.jpg" alt="MilkyWay"></a>
+					  </div>
+					</div>				
+					<div class="item">
+						<div class="item-content">
+							<a href="images/HeadlandsDarkSky.jpg" data-lightbox="stars" data-title="data title"><img src="images/HeadlandsDarkSky.jpg" alt="HeadlandsDarkSky"></a>
+						</div>
+					</div>			
+					<div class="item">
+						<div class="item-content">
+							<a href="images/McGulpinPointLighthouse.jpg" data-lightbox="stars" data-title="data title"><img src="images/McGulpinPointLighthouse.jpg" alt="McGulpinPointLighthouse"></a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-content">
+							<a href="images/MoonBurst.jpg" data-lightbox="stars" data-title="data title"><img src="images/MoonBurst.jpg" alt="MoonBurst"></a>						</div>
+						</div>
+					<div class="item">
+						<div class="item-content">
+							<a href="images/nubiya.jpg" data-lightbox="stars" data-title="data title"><img src="images/nubiya.jpg" alt="nubiya"></a>
+						</div>
+					</div>	
+					<div class="item">
+						<div class="item-content">
+							<a href="images/Twilight.jpg" data-lightbox="stars" data-title="data title"><img src="images/Twilight.jpg" alt="Twilight"></a>
+						</div>
+					</div>		
+					<div class="item">
+						<div class="item-content">
+							<a href="images/Galaxy.jpg" data-lightbox="stars" data-title="data title"><img src="images/Galaxy.jpg" alt="Galaxy"></a>
+						</div>
+					</div>		
+					<div class="item">
+						<div class="item-content">
+							<a href="images/background.jpg" data-lightbox="stars" data-title="data title"><img src="images/background.jpg" alt="background"></a>
+						</div>
+					</div>		  	  
+			</div>
+	</div>
+	
+	<script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+	<script src="https://unpkg.com/web-animations-js@2.3.1/web-animations.min.js"></script>
+	<script src="https://unpkg.com/hammerjs@2.0.8/hammer.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.7.1/dist/muuri.min.js"></script>
+	<script>
+		var grid = new Muuri('.grid');
+		var grid = new Muuri('.grid', {dragEnabled: true});
+	</script>
+</body>
+
+</html>
